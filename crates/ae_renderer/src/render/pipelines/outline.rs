@@ -189,7 +189,7 @@ impl SelectionOutlinePass {
     }
 }
 
-/// Creates the Selection Outline pipelines for Unreal Engine 5 & Blender style
+/// Creates the Selection Outline pipelines for high-quality
 /// screen-space silhouette edge detection.
 pub(crate) fn create_outline_pipelines(
     device: &wgpu::Device,
